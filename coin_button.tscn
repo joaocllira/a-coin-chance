@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bji8di232jdjt"]
+
+[ext_resource type="Script" uid="uid://b3ni6pho7qbjk" path="res://coin_button.gd" id="1_14r34"]
+
+[node name="CoinButton" type="TextureButton"]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_14r34")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
